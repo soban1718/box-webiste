@@ -1,0 +1,152 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.border{
+    display: block;
+    border-width: 5px;
+    /* border-image: url('blueborder.gif')11 11 11 11 stretch; */
+
+}
+ul{
+    background-color: black;
+    width: 80%;
+    text-align: center;
+    margin : 15px auto 15px auto;
+}
+ li {
+     color: white;
+     /* padding-left:5px ; */
+     min-width: 120px;
+     text-align: center;
+     display: inline-block;
+     cursor: pointer;
+}
+.hidden{
+    /* display : none; */
+    visibility: visible;
+}
+li:hover{
+    background-color: white;
+    color: black;
+}
+
+p{
+    /* width: 120px;
+    height: 120px; */
+    /* margin: 10px auto 10px auto; */
+    /* border: 2px dotted grey;
+    border-top: 5px groove black;
+    border-bottom: 5px outset orange;
+    border-right: 2px inset pink;
+    border-left: 2px dashed purple;
+    border-radius: 100%; */
+    /* border-top-right-radius: 40px  ; */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 10px; */
+    /* border-radius: 10px 25px 45px 5px; */
+    /* border-width: thick;
+    box-shadow: -2px -2px 2px palevioletred;
+    border-top-color: red;
+    padding:5px;
+    padding-top: 12px;
+    padding-left: 12px;
+    margin: 0px;
+    margin: 5px;
+    margin-right: auto;
+    margin-left: auto; */
+    
+    /* border-top-width: thin; */
+    /* background-color: aqua; */
+    /* width: 75%;
+    min-height: 70px; */
+}
+ /* td{
+    min-width: 41px ;
+    max-width: 92px;
+    border: 1px solid grey;
+}
+table {
+    border: 1px solid grey;
+
+}
+.description{
+    height:  80px;
+    background-color: aqua;
+    overflow: scroll;
+} */
+
+
+/* .column1{
+    display: inline-block;
+    width: 50%;
+    height: 200px;
+    background-color: orange;
+}
+.column2{
+    display: inline-block;
+    width: 48%;
+    background-color: red;
+    height: 200px;
+} */
+
+.leftDiv{
+    float: left;
+    width: 60%;
+    border-top: 2px solid red;
+    padding-top: 5px;
+    height: 200px;
+}   
+.rightDiv{
+    float: right;
+    width: 35%;
+    background-color: lightcoral;
+    height: 200px;
+}
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    margin-top: 25px;
+}
+.rightImage{
+   width: 100%;
+   height: 100%;
+}
+.rightImageDiv{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: red;
+}
+.leftBoxDiv{
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: orange;
+}
+.childBox{
+    float: left;
+    width: 47%;
+    height: 80px;
+
+}
+.childBoxText{
+    float: right;
+    height: 80px;
+    width: 47%;
+}
+.childBoxImage{
+    height: 60px;
+    width: 100%;
+}
+.heading{
+    position: absolute;
+    top: -12px ;
+    background-color: red;
+    color: white;
+    padding: 4px;
+}
